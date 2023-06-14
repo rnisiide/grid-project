@@ -14,8 +14,9 @@
 <body>
     <div class="wrapper">
         <nav>
-            <div class="title"><i class="fa-2xl fa-solid fa-chart-gantt"></i><h1>Dashboard</h1></div>
             <ul>
+                <li><i class="fa-2xl fa-solid fa-chart-gantt"></i><h1>Dashboard</h1></li>
+                <br>
                 <li><i class="fa-xl fa-solid fa-house"></i><p>Home</p></li>
                 <li><i class="fa-xl i-nav fa-regular fa-address-card"></i><p>Profile</p></li>
                 <li><i class="fa-xl i-nav fa-solid fa-comments"></i><p>Messages</p></li>
@@ -29,80 +30,107 @@
             </ul>
         </nav>
         <header>
-            <div>
-                <h1>Search bar</h1>
+            <div class="left-header">
+                <div class="search">
+                    <i class="fa-xl fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="    Search...">
+                </div>
+                <div class="greeting">
+                    <img src="./photos/Chibi.jpg" alt="">
+                    <p>Hi There,</p>
+                    <h1>Angry Chibi (@chibi) </h1>
+                </div>
             </div>
-            <div>
-                <h1>Identification @</h1>
+            <div class="right-header">
+                <div class="profile">
+                    <i class="fa-xl fa-solid fa-bell"></i>
+                    <img src="./photos/Chibi.jpg" alt="">
+                    <h2>Angry Chibi</h1>
+                </div>
+                <div class="upper-buttons">
+                    <button>New</button><button>Upload</button><button>Share</button>
+                </div>
             </div>
         </header>
         <div class="content">
             <div class="projects">
-                <h1>Your projects</h1>
+                <h2>Your projects</h2>
                 <div class="cards">
                     <div class="card_item">
-                        <h2>Card Title</h2>
+                        <h3>Card Title</h3>
                         <p>Card Content Lorem Ipsum</p>
-                        <button>Star</button>
-                        <button>Eye</button>
-                        <button>Share</button>
+                        <div class="card_buttons">
+                            <button><i class="fa-xl fa-regular fa-star"></i></button>
+                            <button><i class="fa-xl fa-regular fa-eye"></i></button>
+                            <button><i class="fa-xl fa-solid fa-code-fork"></i></button>
+                        </div>
                     </div>
                     <div class="card_item">
-                        <h2>Card Title</h2>
-                        <p>Card Content Lorem Ipsum</p>
-                        <button>Star</button>
-                        <button>Eye</button>
-                        <button>Share</button>
+                        <h3>Card Title</h3>
+                        <p>Nunc imperdiet id est nec porta. Integer laoreet quam dui, in egestas nibh feugiat eu.  Nulla ante neque, egestas at sapien sit amet, tristique consectetur leo. In sodales mollis turpis sit amet dictum. </p>
+                        <div class="card_buttons">
+                            <button><i class="fa-xl fa-regular fa-star"></i></button>
+                            <button><i class="fa-xl fa-regular fa-eye"></i></button>
+                            <button><i class="fa-xl fa-solid fa-code-fork"></i></button>
+                        </div>
                     </div>
                     <div class="card_item">
-                        <h2>Card Title</h2>
+                        <h3>Card Title</h3>
                         <p>Card Content Lorem Ipsum</p>
-                        <button>Star</button>
-                        <button>Eye</button>
-                        <button>Share</button>
+                        <div class="card_buttons">
+                            <button><i class="fa-xl fa-regular fa-star"></i></button>
+                            <button><i class="fa-xl fa-regular fa-eye"></i></button>
+                            <button><i class="fa-xl fa-solid fa-code-fork"></i></button>
+                        </div>
                     </div>
                     <div class="card_item">
-                        <h2>Card Title</h2>
+                        <h3>Card Title</h3>
                         <p>Card Content Lorem Ipsum</p>
-                        <button>Star</button>
-                        <button>Eye</button>
-                        <button>Share</button>
+                        <div class="card_buttons">
+                            <button><i class="fa-xl fa-regular fa-star"></i></button>
+                            <button><i class="fa-xl fa-regular fa-eye"></i></button>
+                            <button><i class="fa-xl fa-solid fa-code-fork"></i></button>
+                        </div>
                     </div>
                     <div class="card_item">
-                        <h2>Card Title</h2>
+                        <h3>Card Title</h3>
                         <p>Card Content Lorem Ipsum</p>
-                        <button>Star</button>
-                        <button>Eye</button>
-                        <button>Share</button>
+                        <div class="card_buttons">
+                            <button><i class="fa-xl fa-regular fa-star"></i></button>
+                            <button><i class="fa-xl fa-regular fa-eye"></i></button>
+                            <button><i class="fa-xl fa-solid fa-code-fork"></i></button>
+                        </div>
                     </div>
                     <div class="card_item">
-                        <h2>Card Title</h2>
+                        <h3>Card Title</h3>
                         <p>Card Content Lorem Ipsum</p>
-                        <button>Star</button>
-                        <button>Eye</button>
-                        <button>Share</button>
+                        <div class="card_buttons">
+                            <button><i class="fa-xl fa-regular fa-star"></i></button>
+                            <button><i class="fa-xl fa-regular fa-eye"></i></button>
+                            <button><i class="fa-xl fa-solid fa-code-fork"></i></button>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div >
-                <h1>Announcements</h1>
-                <div class="announcements">
-                    <div class="item">
+            <div class="announcements">
+                <h2>Announcements</h2>
+                <div class="announcements-card">
+                    <div class="announcements-item">
                         <h3>Site Maintenance</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa impedit facere maiores quisquam ut delectus qui nostrum iste molestiae enim est praesentium obcaecati rem debitis, voluptatum eveniet cupiditate ab deleniti?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa impedit facere maiores quisquam ut delectus qui nostrum iste molestiae...</p>
                     </div>
-                    <div class="item">
+                    <div class="announcements-item middle">
                         <h3>Community Share Day</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti sunt repellendus quibusdam assumenda ipsa! Possimus assumenda eum quos soluta ab eligendi quisquam cum dignissimos veniam fugiat, deserunt delectus consequuntur eveniet.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti sunt repellendus quibusdam assumenda ipsa! Possimus assumenda...</p>
                     </div>
-                    <div class="item">
+                    <div class="announcements-item">
                         <h3>Updated Privacy Policy</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae eveniet, modi, perspiciatis, repellat est in itaque aliquid omnis consectetur inventore sed sunt? Explicabo, consequatur a assumenda corporis saepe alias? Aspernatur.</p>
+                        <p>Thestral dirigible plums, Viktor Krum hexed memory charm Animagus Invisibility Cloak three-headed Dog. Half-Blood Prince Invisibility...</p>
                     </div>
                 </div>
             </div>
             <div class="trending">
-                <h1>Trending</h1>
+                <h2>Trending</h2>
                 <div class="user_wrapper">
                     <div class="user">
                         <img src="./photos/hurley.jpg" alt="">
