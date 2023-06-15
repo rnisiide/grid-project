@@ -1,1 +1,2 @@
-# grid-project
+# The Odin Project - Project Admin Dashboard
+
